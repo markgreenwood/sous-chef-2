@@ -1,0 +1,35 @@
+{
+  "name": "es-index-monitor",
+  "version": "1.0.0",
+  "description": "Monitor Elasticsearch indices _stats for activity",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive test",
+    "start": "node server.js"
+  },
+  "author": "Mark Greenwood",
+  "license": "Unlicensed",
+  "dependencies": {
+    "aws-sdk": "^2.193.0",
+    "bluebird": "^3.5.1",
+    "config": "^1.29.4",
+    "deep-diff": "^0.3.8",
+    "elasticsearch": "^14.1.0",
+    "hapi": "^17.2.0",
+    "hapi-swagger": "^9.1.1",
+    "http-aws-es": "^4.0.0",
+    "inert": "^5.1.0",
+    "moment": "^2.20.1",
+    "ramda": "^0.25.0",
+    "vision": "^5.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.0.1",
+    "sinon": "^4.3.0"
+  }
+}

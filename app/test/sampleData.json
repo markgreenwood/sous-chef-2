@@ -1,0 +1,115 @@
+{
+  "took": 17,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 42,
+    "max_score": 4.5006027,
+    "hits": [
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "Qj0OfWEBQhmgYTrNTQrd",
+        "_score": 4.5006027,
+        "_source": {
+          "statsTimestamp": "2018-02-09",
+          "index": "index001",
+          "data": "index001 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "pj0RfWEBQhmgYTrNQgpj",
+        "_score": 4.5006027,
+        "_source": {
+          "statsTimestamp": "2018-02-09",
+          "index": "index002",
+          "data": "index002 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "cvJee2EBFROTjDKVyMHF",
+        "_score": 3.2728887,
+        "_source": {
+          "statsTimestamp": "2018-02-09",
+          "index": "index003",
+          "data": "index003 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "Qj0OfWEBQhmgYTrNTQrd",
+        "_score": 4.5006027,
+        "_source": {
+          "statsTimestamp": "2018-02-11",
+          "index": "index001",
+          "data": "index001 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "pj0RfWEBQhmgYTrNQgpj",
+        "_score": 4.5006027,
+        "_source": {
+          "statsTimestamp": "2018-02-11",
+          "index": "index002",
+          "data": "index002 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "cvJee2EBFROTjDKVyMHF",
+        "_score": 3.2728887,
+        "_source": {
+          "statsTimestamp": "2018-02-11",
+          "index": "index003",
+          "data": "index003 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "HTd9kWEByiBv0yh3PeCc",
+        "_score": 4.5006027,
+        "_source": {
+          "statsTimestamp": "2018-02-13",
+          "index": "index001",
+          "data": "index001 data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "ZfJee2EBFROTjDKVyMHF",
+        "_score": 3.2728887,
+        "_source": {
+          "statsTimestamp": "2018-02-13",
+          "index": "index002",
+          "data": "index002 changed data"
+        }
+      },
+      {
+        "_index": "monitored-index-stats",
+        "_type": "stats",
+        "_id": "QT0OfWEBQhmgYTrNTQrd",
+        "_score": 3.2728887,
+        "_source": {
+          "statsTimestamp": "2018-02-13",
+          "index": "index003",
+          "data": "index003 data"
+        }
+      }
+    ]
+  }
+}

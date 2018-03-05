@@ -1,0 +1,12 @@
+monitored-es-cluster:
+  host: elasticsearch.metadata.energysensei.systems:9200
+
+stats-es-cluster:
+  host: https://search-sensei-test-db-nir5zfe457sedoys4i33ni5jma.us-west-2.es.amazonaws.com
+
+aws:
+  region: us-west-2
+
+hapiServer:
+  host: localhost
+  port: 3000
